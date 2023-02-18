@@ -2,17 +2,53 @@
     margin: 0;
     box-sizing: border-box;
    }
-   body {
+   
+body {
    background: url("https://bit.ly/hw4ting"); 
    opacity: .5;
    background-repeat: no-repeat;
    }
-   .container {
+
+.container {
+   display: flex;
+   gap: 10px;
    max-width: 1400px;
+   justify-content: space-between;
+  flex-wrap: wrap;
    }
-   .container > * {
+   
+.box1 {
+  width: 130px;
+    padding: 0px 10px 12px 0px;
+}
+
+.box2 {
+  width: 580px;
+  padding:
+}
+
+.box3 {
+  width:580px;
+    padding:
+}
+.box4 {
+  width:1150px;
+    padding:0px 0px 12px 0px;
+}
+
+.box5 {
+  width: 150px;
+}
+.box6 {
+  width:1400px;
+    padding:0px 0px 12px 0px;
+}
+
+.container > * {
    background-color: lightblue;
    font-size: 10rem;
     color: blue;
     border: 2px dashed blue;
+  flex-shrink: 1;
+  flex-grow: 1;
    }

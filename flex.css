@@ -13,13 +13,12 @@ body {
    display: flex;
    gap: 10px;
    max-width: 1400px;
-   justify-content: space-between;
-  flex-wrap: wrap;
+   flex-wrap: wrap;
    }
    
 .box1 {
   width: 130px;
-    padding: 0px 10px 12px 0px;
+  padding: 0px 10px 12px 0px;
 }
 
 .box2 {
@@ -31,7 +30,7 @@ body {
 }
 .box4 {
   width:1150px;
-    padding:0px 0px 12px 0px;
+  padding:0px 0px 12px 0px;
 }
 
 .box5 {
@@ -39,14 +38,14 @@ body {
 }
 .box6 {
   width:1400px;
-    padding:0px 0px 12px 0px;
+  padding:0px 0px 12px 0px;
 }
 
 .container > * {
    background-color: lightblue;
    font-size: 10rem;
-    color: blue;
-    border: 2px dashed blue;
-  flex-shrink: 1;
-  flex-grow: 1;
+   color: blue;
+   border: 2px dashed blue;
+   flex-shrink: 1;
+   flex-grow: 1;
    }

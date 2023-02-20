@@ -1,51 +1,51 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-   }
-   
+  margin: 0;
+  box-sizing: border-box;
+ }
+ 
 body {
-   background: url("https://bit.ly/hw4ting"); 
-   opacity: .5;
-   background-repeat: no-repeat;
-   }
+  background: url("https://bit.ly/hw4ting"); 
+  opacity: .5;
+  background-repeat: no-repeat;
+ }
 
 .container {
-   display: flex;
-   gap: 10px;
-   max-width: 1400px;
-   flex-wrap: wrap;
-   }
-   
+  display: flex;
+  gap: 10px;
+  max-width: 1400px;
+  flex-wrap: wrap;
+ }
+ 
 .box1 {
-  width: 130px;
-  padding: 0px 10px 12px 0px;
+ flex-basis: 130px;
+ height: 200px;
 }
 
 .box2 {
-  width: 580px;
+ flex-basis: 580px;
 }
 
 .box3 {
-  width:580px;
+ flex-basis:580px;
 }
 .box4 {
-  width:1150px;
-  padding:0px 0px 12px 0px;
+ flex-basis:1150px;
+ height: 200px;
 }
 
 .box5 {
-  width: 150px;
+ flex-basis: 150px;
 }
 .box6 {
-  width:1400px;
-  padding:0px 0px 12px 0px;
+ flex-basis:1400px;
+ height: 200px;
 }
 
 .container > * {
-   background-color: lightblue;
-   font-size: 10rem;
-   color: blue;
-   border: 2px dashed blue;
-   flex-shrink: 1;
-   flex-grow: 1;
-   }
+ background-color: lightblue;
+ font-size: 10rem;
+ color: blue;
+ border: 2px dashed blue;
+ flex-shrink: 1;
+ flex-grow: 1;
+ }

@@ -51,7 +51,11 @@
     display: flex;
     gap: .5rem;
     flex-wrap: wrap;
-    color: pink;
+ }
+
+ ul > * {
+   background: lightpink;
+   padding: .5rem;
  }
 
  .info {

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://cdn.imgchest.com/files/p7bwcdnql7n.png);
+    background-repeat: no-repeat;
+    max-width: 1155px;
+    min-height: 1018px;
+    font-size: 2rem;
+    opacity: .5;
+    color: blue;
+}
+.container > * {
+    border: 2px dashed blue;
+}
+
+.container {
+    display: grid;
+    grid-template-rows:minmax(40px,auto) minmax(169px,auto) minmax(36px,auto) minmax(387px,auto) minmax(384px,auto);
+    grid-template-columns: minmax(20px,237px) minmax(20px,681px) minmax(20px,238px);
+    grid-template-areas: 
+      "one one one"
+      "two two two "
+      "three three three"
+      "four six seven"
+      "five five five";
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: .05rem;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+
+li:nth-child(1) {
+  color:#FFF;
+  font-weight: 700;
+  font: bold 14px/30px Arial,Helvetica,sans-serif;
+  text-align: center;
+  background-color: #ff5000;
+  background-image:linear-gradient(to top,#ff9000 0,#ff5000 100%);
+  padding: 0px 20px;
+  border: 0px 20px;
+  margin: 0px 50px;
+}
+
+li:nth-child(2), li:nth-child(3),li:nth-child(4),li:nth-child(5),li:nth-child(6), li:nth-child(7) {
+  color: #333;
+}
+
+li:nth-child(2) {
+  padding:6px 27.5px;
+}
+li:nth-child(3) {
+  padding:6px 0px;
+}
+
+li:nth-child(4) {
+  padding:6px 20px;
+}
+
+li:nth-child(5) {
+  padding:6px 5px;
+}
+
+li:nth-child(6) {
+  padding:6px 17px;
+}
+
+li:nth-child(7) {
+  padding:6px 8px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 100%;
+    grid-template-areas: 
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six"
+      "seven"
+  }
+}
+
+.box1 {
+    grid-area: one;
+}
+
+.box2 {
+    grid-area: two;
+}
+  
+.box3 {
+    grid-area: three;
+}
+  
+.box4 {
+    grid-area: four;
+}
+  
+.box5 {
+    grid-area: five;
+}
+  
+.box6 {
+    grid-area: six;
+}
+  
+.box7 {
+    grid-area: seven;
+}

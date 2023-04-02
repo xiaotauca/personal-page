@@ -34,6 +34,7 @@ ul {
   gap: .05rem;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
+  flex-wrap: wrap;
 }
 
 li:nth-child(1) {

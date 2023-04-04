@@ -22,13 +22,13 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows:minmax(169px,auto) minmax(340px,auto) minmax(387px,auto) minmax(384px,auto);
+    grid-template-rows:minmax(40px,auto) minmax(169px,auto) minmax(320px,auto) minmax(387px,auto);
     grid-template-columns: minmax(20px,237px) minmax(20px,681px) minmax(20px,238px);
     grid-template-areas: 
-      "two two two"
-      "three one one "
-      "four six seven"
-      "five five five";
+      "one one one"
+      "two two two "
+      "three five five"
+      "four six seven";
 }
 
 ul {

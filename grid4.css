@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body > img:nth-of-type(1) {
+  display: none;
+}
+
+body {
+  background-image: none;
+  background-repeat: no-repeat;
+  max-width: 1155px;
+  min-height: 1018px;
+  font-size: 2rem;
+  opacity: 1;
+  color: blue;
+}
+.container > * {
+  border: 2px dashed blue;
+}
+
+.container {
+  display: grid;
+  grid-template-rows:minmax(50px,auto) minmax(120px,auto) minmax(499px,auto) minmax(290px,auto) minmax(470px,auto);
+  grid-template-columns: minmax(20px,345px) minmax(20px,980px);
+  grid-template-areas: 
+    "one one"
+    "two two"
+    "three six"
+    "seven five"
+    "seven four";
+
+  row-gap: 10px;
+  column-gap: 15px;
+}
+
+.box2 > img {
+  max-width:148px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: .5rem;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #FFF;
+}
+
+li:nth-child(1) {
+  color:#FFF;
+  font-weight: 700;
+  font: bold 146x/30px Arial,Helvetica,sans-serif;
+  background-color: #ff5000;
+  background-image:linear-gradient(to top,#ff9000 0,#ff5000 100%);
+}
+
+li:nth-child(2), li:nth-child(3),li:nth-child(4),li:nth-child(5),li:nth-child(6), li:nth-child(7) {
+  color: #333;
+}
+
+li {
+  padding: 18px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #333;
+}
+
+@media (max-width: 500px) {
+  .container {
+  grid-template-columns: 100%;
+  grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four"
+    "five"
+    "six"
+    "seven"
+  }
+}
+
+.box1 {
+  grid-area: one;
+}
+
+.box2 {
+  grid-area: two;
+}
+
+.box3 {
+  grid-area: three;
+}
+
+.box4 {
+  grid-area: four;
+}
+
+.box5 {
+  grid-area: five;
+}
+
+.box6 {
+  grid-area: six;
+  background-image: url(https://th.bing.com/th/id/OIG.fGbq2E0kQP8hxiYSQCv_?pid=ImgGn);
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-blend-mode: multiply;
+  background-color: grey;
+
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+.box7 {
+  grid-area: seven;
+}

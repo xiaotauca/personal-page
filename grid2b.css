@@ -240,7 +240,7 @@ padding: 4px 10px;
   margin: 0px 50px;
 }
 
-.box3 li:nth-child(2), li:nth-child(3),li:nth-child(4),li:nth-child(5),li:nth-child(6), li:nth-child(7) {
+.box3 li:nth-child(2), .box3 li:nth-child(3), .box3 li:nth-child(4), .box3 li:nth-child(5), .box3 li:nth-child(6), .box3 li:nth-child(7) {
   color: #333;
 }
 
@@ -347,10 +347,21 @@ padding: 4px 10px;
   font-weight: bold;
   padding: 9px 3px;
 }
+
+.product1, .product2 {
+  position: relative;
+}
+
 .product1 .discount-label {
   position: absolute;
-  bottom: 1px;
-  left: 1px;
+  top: 1px;
+  right: 1px;
+}
+
+.product2 .discount-label {
+  position: absolute;
+  top: 1px;
+  right: 1px;
 }
 
 .label-sale {

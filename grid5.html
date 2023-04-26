@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 6</title>
-    <link rel="stylesheet" href="grid2b.css" class="style">   
+    <link rel="stylesheet" href="grid2b.css" class="style"> 
+  <script src="https://use.fontawesome.com/90733cd8b9.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <button onclick='switchStyle()' style='position: absolute; top:0; right:0;'>Style</button>
@@ -30,7 +32,9 @@
               <li class="p6">1688.com</li>
             </ul>
             <div class="input-group">
+              <span class="fa fa-search"></span>
               <p class="search">Поиск среди 800 000 000 товаров из Китая</p>
+              <a class="fa fa-camera"></a>
               <span class="btn">Найти</span>
             </div>
             <img src="https://www.tao.kg/i/product_china.jpg">
@@ -56,22 +60,49 @@
             </ul>
         </div>
         <div class="box4">
-          <ul>
-                <li class="box41">
-                  Медицинское оборудование
+          <ul class="category-ul">
+                <li>
+                  <div class="box41">
+                    <span class="catico caticon-otc-8896"></span>
+                   Медицинское оборудование
+                  <i class="fa fa-angle-right" aria-hidden="true"></i></div>
                 </li>
-                <li class="box42">Запчасти для телефонов</li>
-                <li class="box43">Осветительные приборы</li>
-                <li class="box44">Распродажа 11.11</li>
-                <li class="box45">1688</li>
-                <li class="box46">
+                <li>
+                  <div class="box42">
+                    <span class="catico caticon-otc-9101"></span>Запчасти для телефонов
+             <i class="fa fa-angle-right" aria-hidden="true"></i></div></li>
+                <li>
+                  <div class="box43">
+                    <span class="catico caticon-otc-8776"></span>Осветительные приборы
+             <i class="fa fa-angle-right" aria-hidden="true"></i></div></li>
+                <li> <div class="box44">
+                  <span class="catico caticon-otc-8421"></span>Распродажа 11.11
+             </div></li>
+                <li>
+                  <div class="box45">
+                    <span class="catico caticon-otc-8305"></span>1688
+             <i class="fa fa-angle-right" aria-hidden="true"></i></div></li>
+                <li>
+                  <div class="box46"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTM2Mi42NzIsNDIuNjZoLTUzLjMyOGMwLDI5LjQxNC0yMy45MzgsNTMuMzM2LTUzLjM0NCw1My4zMzZzLTUzLjMyOC0yMy45MjItNTMuMzI4LTUzLjMzNmgtNTMuMzM2TDAsMTI3Ljk5NiAgICBsNDIuNjcyLDExNy4zMzZsNjQtMjEuMzM2VjQ2OS4zNGgyOTguNjcyVjIyMy45OTZsNjQsMjEuMzM2TDUxMiwxMjcuOTk2TDM2Mi42NzIsNDIuNjZ6IE00NTYuMzc1LDIxOC41MjdsLTQ0LjI5Ny0xNC43NjYgICAgTDM4NCwxOTQuMzk1djI5LjYwMnYyMjRIMTI4di0yMjR2LTI5LjYwMmwtMjguMDc4LDkuMzY3bC00NC4yOTcsMTQuNzY2bC0yOS40My04MC45M0wxNTUsNjMuOTk2aDI5LjQzICAgIGM5LjE4LDMwLjg0NCwzNy43NSw1My4zMzYsNzEuNTcsNTMuMzM2YzMzLjgyOCwwLDYyLjM5MS0yMi40OTIsNzEuNTYyLTUzLjMzNkgzNTdsMTI4LjgxMiw3My42MDJMNDU2LjM3NSwyMTguNTI3eiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=">
                   Одежда
-                </li>
-                <li class="box47">Обувь</li>
-                <li class="box48">Сумки, кошельки</li>
-                <li class="box49">Сетевое оборудование</li>
-                <li class="box50">Аксессуары </li>
-                <li class="box51">Все категории</li>
+                 <i class="fa fa-angle-right" aria-hidden="true"></i></div></li>
+                <li><div class="box47"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNDAxLjA2NywzNC4xMzNoLTI1LjZWNTEuMmgyNS42YzUxLjc1NSwwLDkzLjg2Nyw0Mi4xMTIsOTMuODY3LDkzLjg2N3Y1MS4yaC02NS40MTdjLTAuMDYsMC0wLjEyLDAtMC4xNzksMCAgICBjLTE1LjE4OSwwLTI5LjMzOCw4LjE2Ni0zNy4wMDksMjEuNDQ0QzM4MS4xMjQsMjM3Ljc5LDI3Ni43OTYsNDI5LjAyMiwyNTkuNDY1LDQ2MC44SDQ5LjgzNSAgICBjLTE4LjA2NSwwLTMyLjc2OC0xNC43MDMtMzIuNzU5LTMyLjc2YzAuMDA5LTEzLjAxMyw3LjcyMy0yNC43ODksMTkuNjM1LTI5Ljk5NWwxMTEuNzg3LTQ4Ljg5NmwtNi44NDQtMTUuNjMzTDI5Ljg2NywzODIuNDEzICAgIEMxMS43MzMsMzkwLjM0LDAuMDE3LDQwOC4yNDMsMCw0MjguMDMyYzAsMjcuNDc3LDIyLjM1Nyw0OS44MzUsNDkuODM1LDQ5LjgzNWgyMTQuNjk5YzMuMTIzLDAsNS45OTktMS43MDcsNy40ODQtNC40NDYgICAgYzEuMjM3LTIuMjUzLDEyMy4wODUtMjI1LjY2NCwxMzUuMTUxLTI0Ny4yODdjNC41NzQtNy45MDIsMTMuMDU2LTEyLjgsMjIuMjA0LTEyLjhjMC4wNDMsMCwwLjA3NywwLDAuMTExLDBoNzMuOTg0ICAgIGM0LjcxOSwwLDguNTMzLTMuODIzLDguNTMzLTguNTMzdi01OS43MzNDNTEyLDgzLjksNDYyLjIzNCwzNC4xMzMsNDAxLjA2NywzNC4xMzN6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNTA5Ljg3NSwxOTkuMTY4Yy0xLjYxMy0xLjg0My0zLjk1OS0yLjkwMS02LjQwOS0yLjkwMWgtNzYuOGMtMi4zMTMsMC00LjUyMywwLjkzOS02LjEzNSwyLjU5NCAgICBjLTEuNjA0LDEuNjY0LTIuNDY2LDMuOS0yLjM4OSw2LjIxMmw4LjUzMywyNjQuNTMzYzAuMTQ1LDQuNTk5LDMuOTE3LDguMjYsOC41MjUsOC4yNmgzNC4xMzNjNC4yOTIsMCw3LjkxOS0zLjE4Myw4LjQ2NS03LjQ0MSAgICBsMzQuMTMzLTI2NC41MzNDNTEyLjIzOSwyMDMuNDYsNTExLjQ4OCwyMDEuMDExLDUwOS44NzUsMTk5LjE2OHogTTQ2MS44MzMsNDYwLjhoLTE4LjM2NGwtNy45ODctMjQ3LjQ2N2g1OC4yNzRMNDYxLjgzMyw0NjAuOHoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0zOTYuOTM3LDQyLjE5N2MtNS4xMi01LjE2My0xMS45My04LjAzLTE5LjIxNy04LjA2NGMtMC4wMzQsMC0wLjA2OCwwLTAuMTAyLDBjLTkuNjY4LDAtMTguNjU0LDUuMTk3LTIzLjQzMiwxMy41NDIgICAgTDIxNi4wNzMsMjg1LjE0MWMtNS44MiwxMC4xOC0xNC40MzgsMTguMzY0LTI0LjksMjMuNjQ2bC00OS45MiwyNC45MTdjLTMuMjYsMS42MjEtNS4xMiw1LjE0Ni00LjY0Miw4Ljc2NCAgICBjMC40NzgsMy42MTgsMy4yMDksNi41MTksNi43ODQsNy4yMzZsNTUuNTUyLDExLjA5M2MzLjMzNiwwLjY2Niw2LjY5LDAuOTksMTAuMDEsMC45OWMxNy45MDMsMCwzNC44NTktOS40MzgsNDQuMjI4LTI1LjM4NyAgICBsMTQ4LjE3My0yNjEuNzZjMi4yMzYtNC4wMTksMy40MzktOC41NjcsMy40NjUtMTMuMTU4QzQwNC44NTUsNTQuMjEyLDQwMi4wNTcsNDcuMzYsMzk2LjkzNyw0Mi4xOTd6IE0zODYuNDc1LDY2LjI4NyAgICBsLTE0OC4wNywyNjEuNTk4Yy03LjM1NiwxMi41MTgtMjEuODYyLDE4Ljk3OC0zNi4xMTMsMTYuMTc5bC0zMS4xMjEtNi4yMjFsMjcuNjY1LTEzLjgwN2MxMy40ODMtNi44MSwyNC41NjgtMTcuMzQsMzIuMDI2LTMwLjM3OSAgICBMMzY4Ljk1Niw1Ni4yMDljMS43NzUtMy4wODksNS4wOTQtNS4wMDksOC42NTMtNS4wMDljMC4wMDksMCwwLjAyNiwwLDAuMDM0LDBjMi43MTQsMC4wMTcsNS4yNTcsMS4wODQsNy4xNTksMy4wMTIgICAgYzEuOTExLDEuOTI5LDIuOTYxLDQuNDg5LDIuOTQ0LDcuMTk0QzM4Ny43MzgsNjMuMTIxLDM4Ny4yOTQsNjQuODI4LDM4Ni40NzUsNjYuMjg3eiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=">
+                  Обувь
+             <i class="fa fa-angle-right" aria-hidden="true"></i></div></li>
+                <li>
+                  <div class="box48"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMyMS4yIDMyMS4yIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMjEuMiAzMjEuMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0zMDYuNCwzMTMuMmwtMjQtMjIzLjZjLTAuNC0zLjYtMy42LTYuNC03LjItNi40aC00NC40VjY5LjZjMC0zOC40LTMxLjItNjkuNi02OS42LTY5LjZjLTM4LjQsMC02OS42LDMxLjItNjkuNiw2OS42ICAgIHYxMy42SDQ2Yy0zLjYsMC02LjgsMi44LTcuMiw2LjRsLTI0LDIyMy42Yy0wLjQsMiwwLjQsNCwxLjYsNS42YzEuMiwxLjYsMy4yLDIuNCw1LjIsMi40aDI3OGMyLDAsNC0wLjgsNS4yLTIuNCAgICBDMzA2LDMxNy4yLDMwNi44LDMxNS4yLDMwNi40LDMxMy4yeiBNMjIzLjYsMTIzLjZjMy42LDAsNi40LDIuOCw2LjQsNi40YzAsMy42LTIuOCw2LjQtNi40LDYuNGMtMy42LDAtNi40LTIuOC02LjQtNi40ICAgIEMyMTcuMiwxMjYuNCwyMjAsMTIzLjYsMjIzLjYsMTIzLjZ6IE0xMDYsNjkuNmMwLTMwLjQsMjQuOC01NS4yLDU1LjItNTUuMmMzMC40LDAsNTUuMiwyNC44LDU1LjIsNTUuMnYxMy42SDEwNlY2OS42eiAgICAgTTk4LjgsMTIzLjZjMy42LDAsNi40LDIuOCw2LjQsNi40YzAsMy42LTIuOCw2LjQtNi40LDYuNGMtMy42LDAtNi40LTIuOC02LjQtNi40QzkyLjQsMTI2LjQsOTUuMiwxMjMuNiw5OC44LDEyMy42eiBNMzAsMzA2LjQgICAgTDUyLjQsOTcuMmgzOS4ydjEzLjJjLTgsMi44LTEzLjYsMTAuNC0xMy42LDE5LjJjMCwxMS4yLDkuMiwyMC40LDIwLjQsMjAuNGMxMS4yLDAsMjAuNC05LjIsMjAuNC0yMC40YzAtOC44LTUuNi0xNi40LTEzLjYtMTkuMiAgICBWOTcuMmgxMTAuNHYxMy4yYy04LDIuOC0xMy42LDEwLjQtMTMuNiwxOS4yYzAsMTEuMiw5LjIsMjAuNCwyMC40LDIwLjRjMTEuMiwwLDIwLjQtOS4yLDIwLjQtMjAuNGMwLTguOC01LjYtMTYuNC0xMy42LTE5LjJWOTcuMiAgICBIMjcwbDIyLjQsMjA5LjJIMzB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==">
+                  Сумки, кошельки
+             <i class="fa fa-angle-right" aria-hidden="true"></i></div></li>
+                <li>
+                  <div class="box49">
+                    <span class="catico caticon-otc-8480"></span>Сетевое оборудование
+             <i class="fa fa-angle-right" aria-hidden="true"></i></div></li>
+                <li>
+                  <div class="box50"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQwMCA0MDAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQwMCA0MDA7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzIzLjQ2NiwxNDAuNTE0Yy0xMC45NDctMTkuNDI5LTI3LjAwNi0zNS40ODgtNDYuNDM0LTQ2LjQzNFY5NFYxNy40NGMtMC4xNzQtOS42ODMtOC4wNzUtMTcuNDQyLTE3Ljc2LTE3LjQ0aC04NC41NiAgICBjLTkuODA5LDAtMTcuNzYsNy45NTEtMTcuNzYsMTcuNzZ2NzYuNTZjLTM1LjY4MSwyMC4xMzktNTguODk5LDU2LjgxNC02MS44NCw5Ny42OGgtMTguMzJ2LTE2LjhjMC00LjQxOC0zLjU4Mi04LTgtOCAgICBzLTgsMy41ODItOCw4djUwLjRjMCw0LjQxOCwzLjU4Miw4LDgsOHM4LTMuNTgyLDgtOFYyMDhoMTguNGMyLjY4OSw0MS4xMTIsMjUuOTA2LDc4LjEwNCw2MS43Niw5OC40djc1Ljg0ICAgIGMwLDkuODA5LDcuOTUxLDE3Ljc2LDE3Ljc2LDE3Ljc2aDBoODQuNTZjOS44MDksMCwxNy43Ni03Ljk1MSwxNy43Ni0xNy43NlYzMDYuOCAgICBDMzM1Ljc3MywyNzMuNzA0LDM1Ni41NjIsMTk5LjI1NSwzMjMuNDY2LDE0MC41MTR6IE0xNzMuMDMyLDE3LjQ0YzAuMTUxLTAuODE2LDAuODUxLTEuNDE2LDEuNjgtMS40NGg4NC41NiAgICBjMC45NzIsMCwxLjc2LDAuNzg4LDEuNzYsMS43NlY4Ni44Yy0yOC4yODQtMTEuMDk2LTU5LjcxNi0xMS4wOTYtODgsMFYxNy40NHogTTI1OS4yNzIsMzg0LjMyaC04NC41NiAgICBjLTAuOTcyLDAtMS43Ni0wLjc4OC0xLjc2LTEuNzZ2LTY4LjI0YzI4LjI4NCwxMS4wOTYsNTkuNzE2LDExLjA5Niw4OCwwbDAuMDgsNjguMjQgICAgQzI2MS4wMzIsMzgzLjUzMiwyNjAuMjQ0LDM4NC4zMiwyNTkuMjcyLDM4NC4zMnogTTIxNy4wMzIsMzA2LjY0Yy0wLjAyNywwLTAuMDU0LDAtMC4wOCwwICAgIGMtNTguNjc1LDAtMTA2LjI0LTQ3LjU2Ni0xMDYuMjM5LTEwNi4yNDFjMC01OC42NzUsNDcuNTY2LTEwNi4yNCwxMDYuMjQxLTEwNi4yMzljNTguNTE4LDAsMTA2LjAxOCw0Ny4zMjIsMTA2LjIzOCwxMDUuODQgICAgQzMyMy4zMjUsMjU4Ljc2MywyNzUuNzk1LDMwNi41MDcsMjE3LjAzMiwzMDYuNjR6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzA3LjExMiwyMDBjLTAuMjY0LTQ5LjYxOS00MC41NC04OS43MTctOTAuMTYtODkuNzZjLTQ5Ljc5NCwwLTkwLjE2LDQwLjM2Ny05MC4xNTksOTAuMTYxczQwLjM2Nyw5MC4xNiw5MC4xNjEsOTAuMTU5ICAgIHM5MC4xNi00MC4zNjcsOTAuMTU5LTkwLjE2MUMzMDcuMTEzLDIwMC4yNjYsMzA3LjExMywyMDAuMTMzLDMwNy4xMTIsMjAweiBNMjE3LjE5MywyNzQuNTU5Yy0wLjA4LDAtMC4xNiwwLjAwMS0wLjI0MSwwLjAwMSAgICB2LTAuMDhjLTQwLjk1NywwLTc0LjE2LTMzLjIwMy03NC4xNTktNzQuMTYxYzAtNDAuOTU3LDMzLjIwMy03NC4xNiw3NC4xNjEtNzQuMTU5YzQwLjgzMiwwLDczLjk4MiwzMy4wMDgsNzQuMTU5LDczLjg0ICAgIEMyOTEuMjg5LDI0MS4wMDEsMjU4LjE5NCwyNzQuMzgzLDIxNy4xOTMsMjc0LjU1OXoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yNTguODcyLDE1OC45NmMtMy4yNTgtMi45ODUtOC4zMTgtMi43NjMtMTEuMzAzLDAuNDk0Yy0wLjE2LDAuMTc1LTAuMzEzLDAuMzU3LTAuNDU3LDAuNTQ2bC0zMy40NCwzMmgtMzMuNTIgICAgYy00LjQxOCwwLTgsMy41ODItOCw4czMuNTgyLDgsOCw4aDM2LjhjMi4wOTktMC4wMDksNC4xMS0wLjg0Miw1LjYtMi4zMmwzNi4zMi0zNS40NCAgICBDMjYxLjk3NCwxNjcuMTIsMjYxLjk3NCwxNjIuMDgsMjU4Ljg3MiwxNTguOTZ6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==">
+                  Аксессуары 
+             <i class="fa fa-angle-right" aria-hidden="true"></i></div></li>
+                <li>
+                  <div class="box51">Все категории</div></li>
             </ul>
         </div>
         <div class="box5">

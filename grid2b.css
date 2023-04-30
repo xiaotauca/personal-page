@@ -88,7 +88,7 @@ body {
 .input-group {
   display: flex;
   border: 3px solid #fe6402;
-  height: 45px;
+  min-height: 45px;
   width: 105%;
   flex-wrap: wrap;
   text-align: center;
@@ -121,7 +121,8 @@ body {
 }
 
 .description > img {
-  padding: 5px;
+  padding: 4px 0px;
+  max-width: 100%;
 }
 
 .contact-info {

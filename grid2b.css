@@ -172,7 +172,7 @@ padding: 4px 10px;
   border-radius: 10px;
 }
 
-.box4 > ul {
+.box4 .grid2b_style > ul {
   display:flex;
   flex-direction: column;
   list-style-type:none;
@@ -213,7 +213,7 @@ padding: 4px 10px;
   padding:7px 15px 6px 38px;
 }
 
-.box4 img {
+.box4 .grid2b_style img {
   top: 0px;
   left: 10px;
   position: absolute;
@@ -252,7 +252,7 @@ padding: 4px 10px;
   text-align: center;
 }
 
-.box4 li {
+.box4 .grid2b_style li {
   border-bottom: 1px solid #eee;
   list-style: none;
   position: static;
@@ -426,6 +426,10 @@ padding: 4px 10px;
 }
 }
 
+.grid4b_style {
+  display:none;
+}
+
 .box1 {
   grid-area: one;
 }
@@ -448,6 +452,10 @@ padding: 4px 10px;
 
 .box6 {
   grid-area: six;
+}
+
+.box6 p {
+  display: none;
 }
 
 .box7 {

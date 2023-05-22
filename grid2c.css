@@ -70,6 +70,7 @@
   
 .box1 {
     padding: 3px;
+    background-color: #eeeeee;
 }
   .nav {
     font-family: sans-serif;
@@ -149,6 +150,10 @@
 
   .box1-6 {
     padding: 4px 19px;
+  }
+
+  .box2 {
+    grid-area: two;
   }
   
   .logo img {

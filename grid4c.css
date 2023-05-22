@@ -77,15 +77,6 @@
         "seven seven"
     }
 
-    .box7-2 > * {
-        width: 80%;
-        height: 50%;
-        }
-
-    .box7-1 > * {
-            width: 80%;
-            height: 50%;
-        }
     }
 
   
@@ -390,8 +381,9 @@
     color: white;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    gap: 1px;
     justify-content: center;
+    align-items: center;
     text-align: center;
     background-blend-mode: multiply;
     background-color: grey;

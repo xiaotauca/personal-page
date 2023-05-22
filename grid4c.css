@@ -16,10 +16,7 @@
     opacity: 1;
     color: blue;
   }
-  
-  .container > * {
-    border: 2px dashed blue;
-  }
+
   
   .container {
     display: grid;
@@ -92,6 +89,7 @@
     font-family: sans-serif;
     font-size: 15px;
     color: #333;
+    background-color:rgb(222, 222, 227);
     line-height: 1.42857143;
     padding: 5px;
     display: flex;
@@ -485,6 +483,7 @@
   .item-list > * {
     border: 1px solid #fe6402;
     border-radius: 5px;
+    box-shadow: 3px 6px 4px 3px #fe64006b;
   }
   
   .item-list h3 {

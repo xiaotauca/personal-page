@@ -3,7 +3,7 @@
     box-sizing: border-box;
   }
   body {
-    background-image: url(https://cdn.imgchest.com/files/p7bwcdnql7n.png); 
+    /* background-image: url(https://cdn.imgchest.com/files/p7bwcdnql7n.png); */
     background-repeat: no-repeat;
     max-width: 1155px;
     min-height: 1018px;
@@ -377,7 +377,7 @@
   }
   
   .box51 {
-    padding: 8px 15px 7px 0px;
+    padding: 10px 15px 7px 0px;
     background-color: #fe6402;
     color:#FFF;
     text-align: center;
@@ -388,6 +388,7 @@
     list-style: none;
     position: static;
   }
+  
   
   .box3 > ul {
     list-style-type: none;
@@ -416,30 +417,30 @@
   }
   
   .box3 li:nth-child(2) {
-    padding:6px 27.5px;
+    padding:5px 27.5px;
   }
   .box3 li:nth-child(3) {
-    padding:6px 0px;
+    padding:5px 0px;
   }
   
   .box3 li:nth-child(4) {
-    padding:6px 20px;
+    padding:5px 20px;
   }
   
   .box3 li:nth-child(5) {
-    padding:6px 5px;
+    padding:5px 5px;
   }
   
   .box3 li:nth-child(6) {
-    padding:6px 17px;
+    padding:5px 17px;
   }
   
   .box3 li:nth-child(7) {
-    padding:6px 8px;
+    padding:5px 8px;
   }
   
   .box5 {
-    padding: 9px 0px;
+    padding: 9px 2px;
   }
   .box5 .h2 {
     font-size: 1.8em;

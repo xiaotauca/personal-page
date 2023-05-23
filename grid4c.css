@@ -561,12 +561,14 @@
   }
   
   .box7-1 > * {
-    width: 100%;
+    width: 95%;
     height: 50%;
-    border-bottom: 1px dashed violet;
+    border: 1px dashed violet;
   }
   
+  
   .box7-2 > * {
-    width: 100%;
+    width: 95%;
     height: 50%;
+    border: 1px dashed violet;
   }

@@ -574,26 +574,28 @@
     background-size: contain;
   }
   
+  .box6 {
+    width: 95%;
+    height: 95%;
+  }
   .box6 p {
     display: none;
   }
   
-  .box6 > * {
-    width: 97.8%;
-    height:95%;
-  }
   
   .box7 {
     grid-area: seven;
   }
   
   .box7-1 > * {
-    width: 100%;
+    
+    width: 95%;
     height: 50%;
   }
   
+  
   .box7-2 > * {
-    width: 100%;
+    width: 98%;
     height: 50%;
   }
   
